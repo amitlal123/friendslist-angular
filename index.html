@@ -14,13 +14,13 @@
     <form class="form-inline searchForm" role="form">
       <div class="form-group">
 
-        <!-- <input class="form-control" placeholder="Search Anything About Your Friends" ng-model='friendFilter'> -->
-        <!-- STEP 5: Get rid of the one above when you uncomment the below-->
+
+        <!-- Search by Name and Location-->
 
         <input class="form-control" placeholder="Search Name" ng-model="friendFilter.name">
         <input class="form-control" placeholder="Search Location" ng-model="friendFilter.current_location.name">
 
-
+        <!-- Sort selection options-->
         <select class="input-medium" ng-model = "sortProperty">
           <option value="name">Name</option>
           <option value="friend_count">#Friends</option>

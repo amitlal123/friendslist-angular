@@ -10,6 +10,7 @@ appCtrl.controller('FriendController', function($scope){
   $scope.sortProperty = '';
   $scope.sortOrder = '';
   $scope.isReverse = false;
+  // Ascending/Descending sort order
   $scope.setSortOrder = function(){
     if($scope.sortOrder === '+'){
       $scope.isReverse = true;
